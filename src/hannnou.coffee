@@ -39,3 +39,24 @@ module.exports = (robot) ->
     
   robot.hear /腹減った/i, (msg) ->
     msg.send "俺が腹ペコキャラなんじゃが！！！"
+
+  robot.hear /うるさ/i, (msg) ->
+    msg.send "何言うとんねん"
+    
+  robot.hear /うるせ/i, (msg) ->
+    msg.send "わーわーぎゃーぎゃー（ﾄﾞﾔｯ"
+    
+  robot.hear /わろ/i, (msg) ->
+    msg.send "ｗｗｗｗ"
+    
+  robot.hear /帰りた/i, (msg) ->
+    msg.send "帰ったら…ご飯にする？お風呂にする？それとも…（ここで途切れる）"
+    
+  robot.hear /つらい/i, (msg) ->
+    msg.send "メシウマなんじゃがｗｗｗ"
+    
+  robot.hear /ぬるぽ/i, (msg) ->
+    msg.send "ｶﾞｯ"
+    
+  robot.hear /334/i, (msg) ->
+    msg.send "なんでや！阪神関係ないやろ！"
