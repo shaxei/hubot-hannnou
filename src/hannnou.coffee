@@ -17,5 +17,4 @@ module.exports = (robot) ->
     msg.send "テストは嫌じゃあああああああ"
 
   robot.hear /ｗｗｗ/or/草/or/わろた/i, (msg) ->
-    if 
     msg.send "ｗｗｗ"
